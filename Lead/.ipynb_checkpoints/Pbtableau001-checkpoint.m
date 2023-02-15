@@ -1,7 +1,7 @@
 function [Pb,PbOH,PbCl,Pbsolids,MASSERR]=Pbtableau001(pH,pe,T,flag1,flag2,flag3,flag4,flag5,database)
 
 Tableau=[...
-%H,e,Pb,Cl,CO3,Ac,Y,logK,phase,species components identity matrix
+%H,e,Pb,Cl,CO3,Ac,Y,logK,phase,species 
 1,0,0,0,0,0,0,0,0,{'H'}
 0,1,0,0,0,0,0,0,0,{'e'}
 0,0,1,0,0,0,0,0,0,{'Pb'}
@@ -9,6 +9,7 @@ Tableau=[...
 0,0,0,0,1,0,0,0,0,{'CO3'}
 0,0,0,0,0,1,0,0,0,{'Ac'}
 0,0,0,0,0,0,1,0,0,{'Y'}
+%end of identity matrix
 -1,0,0,0,0,0,0,-13.9944,0,{'OH'}
 -1,0,1,0,0,0,0,-7.6005,0,{'PbOH'}
 -2,0,1,0,0,0,0,-17.0898,0,{'PbOH2'}
