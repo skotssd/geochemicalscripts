@@ -1,4 +1,4 @@
-function [Cu,CuOH,Cusolids,MASSERR]=CuOHtableau(pH,pe,T,flag1,flag2,flag3,flag4,flag5,database,IS)
+function [Cu,CuOH,CuOH2s,CuOs,tenorite,MASSERR]=CuOHtableau(pH,pe,T,flag1,flag2,flag3,flag4,flag5,database,IS)
 
 % determine K values based on NIST and measured values versus ionic strength
 
@@ -15,6 +15,7 @@ logKspCuOH2=-18.7; %zero ionic strength value
 logKspCuO=-19.5; %zero ionic strength value
 logKfCuOH2s=-1*logKspCuOH2+2*logKw;
 logKfCuOs=-1*logKspCuO+2*logKw;
+logKtenorite=20.18+2*logKw; %CuO
 
 Tableau=[...
 %H e  Cu2+  logK         phase  species 
@@ -27,6 +28,7 @@ Tableau=[...
 %solids
 -2 0  1     logKfCuOH2s  1      {'CuOH2s'}
 -2 0  1     logKfCuOs    1      {'CuOs'}
+-2 0  1     logKtenorite  1    {'tenorite'}
 ];
 
 % end of tableau.  ------------------ % ----------------------------------------------
@@ -40,7 +42,7 @@ for k=1:size(SPECIESCONCS,1)
       eval(txt)
 end
 %CuOs=0;
-Cusolids=CuOH2s+CuOs;  MASSERR=max(MASSERR);
+Cusolids=CuOH2s+CuOs+tenorite;  MASSERR=max(MASSERR);
 
 end
 

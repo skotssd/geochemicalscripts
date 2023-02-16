@@ -1,39 +1,59 @@
-# Created by Octave 7.3.0, Wed Feb 15 15:16:08 2023 EST <ssmith@ssmitharchbang>
+# Created by Octave 7.3.0, Thu Feb 16 10:18:12 2023 EST <ssmith@ssmitharchbang>
 # name: oKSOLUTION
 # type: matrix
-# rows: 5
+# rows: 12
 # columns: 1
+ 0
  0
  0
  0
  -13.970292981230116
+ -1.5
+ -7.7999999999999998
+ -18.100000000000001
  -7.5203729812301168
+ -11.630000000000003
+ -26.000000000000004
+ -6.7699999999999996
 
 
 # name: oKSOLID
 # type: matrix
-# rows: 2
+# rows: 5
 # columns: 1
  -9.2405859624602336
  -8.4405859624602328
+ -6.6000000000000014
+ -7.7605859624602331
+ -12.860585962460235
 
 
 # name: oASOLUTION
 # type: matrix
-# rows: 5
-# columns: 3
- 1 0 0
- 0 1 0
- 0 0 1
- -1 0 0
- -1 0 1
+# rows: 12
+# columns: 4
+ 1 0 0 0
+ 0 1 0 0
+ 0 0 1 0
+ 0 0 0 1
+ -1 0 0 0
+ 0 0 1 0
+ -1 0 1 0
+ -2 0 1 0
+ -1 0 0 1
+ -2 0 1 1
+ -4 0 2 1
+ -1 0 1 1
 
 
 # name: oASOLID
 # type: matrix
-# rows: 2
-# columns: 3
- -2 0 1
- -2 0 1
+# rows: 5
+# columns: 4
+ -2 0 0 1
+ -2 0 0 1
+ -2 0 1 1
+ -2 0 0 1
+ -2 0 1 2
 
 

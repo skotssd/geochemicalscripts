@@ -1,10 +1,13 @@
-# Created by Octave 7.3.0, Wed Feb 15 15:16:08 2023 EST <ssmith@ssmitharchbang>
+# Created by Octave 7.3.0, Thu Feb 16 10:18:12 2023 EST <ssmith@ssmitharchbang>
 # name: X
 # type: matrix
-# rows: 3
+# rows: 6
 # columns: 1
- 2.7579472950470811e-06
- -0.80000000000000071
- 6.409880930701524e-06
+ 9.699616393989608e-06
+ -2.253831403582427
+ -1.453831403582426
+ -3.1132454411221948
+ -0.7738314035824263
+ -14.387076844704621
 
 
