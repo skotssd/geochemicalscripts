@@ -10,7 +10,7 @@ IS=0.01;  % eventually expand so this is a variable, and all values are interpol
 logKw=H2O(IS);
 
 % rxn Cu+OH=CuOH
-logKfOH1=CuOH(IS);
+logKfOH1=CuOHv(IS);
 logKh1=logKfOH1+logKw;
 
 % solid phases have limited IS data in NIST
@@ -67,7 +67,7 @@ end
 
 % ---------------- SUBFUNCTIONS --------------------------------------------------------
 
-function logKh1=CuOH(ISvalue)
+function logKh1=CuOHv(ISvalue)
 
 OH1=[...
 0 6.5

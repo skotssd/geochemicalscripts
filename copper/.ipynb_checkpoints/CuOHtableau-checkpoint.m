@@ -28,7 +28,7 @@ Tableau=[...
 %solids
 -2 0  1     logKfCuOH2s  1      {'CuOH2s'}
 -2 0  1     logKfCuOs    1      {'CuOs'}
--2 0  1     logKtenorite  1    {'tenorite'}
+-2 0  1     logKtenorite  1     {'tenorite'}
 ];
 
 % end of tableau.  ------------------ % ----------------------------------------------
