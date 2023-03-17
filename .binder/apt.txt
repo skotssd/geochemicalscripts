@@ -1,2 +1,4 @@
-libgl1-mesa-dev
-xvfb
+octave
+liboctave-dev
+gnuplot
+ghostscript
