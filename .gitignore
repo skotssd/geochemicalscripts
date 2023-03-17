@@ -1,0 +1,96 @@
+# Prerequisites
+*.d
+
+# Compiled Object files
+*.slo
+*.lo
+*.o
+*.obj
+
+# Precompiled Headers
+*.gch
+*.pch
+
+# Compiled Dynamic libraries
+*.so
+*.dylib
+*.dll
+
+# Fortran module files
+*.mod
+*.smod
+
+# Compiled Static libraries
+*.lai
+*.la
+*.a
+*.lib
+
+# Executables
+*.exe
+*.out
+*.app
+*.wasm
+
+# Python
+__pycache__
+.pytest_cache
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Generated kernelspec
+share/jupyter/kernels/xoctave/kernel.json
+
+# Build directory
+build/
+bld
+
+# Prerequisites
+*.d
+
+# Compiled Object files
+*.slo
+*.lo
+*.o
+*.obj
+
+# Precompiled Headers
+*.gch
+*.pch
+
+# Compiled Dynamic libraries
+*.so
+*.dylib
+*.dll
+
+# Fortran module files
+*.mod
+*.smod
+
+# Compiled Static libraries
+*.lai
+*.la
+*.a
+*.lib
+
+# Executables
+*.exe
+*.out
+*.app
+*.wasm
+
+# Octave specific
+octave-workspace
+
+# Documentation
+docs/xml
+
+# C++ dev-tools
+compile_commands.json
+.cache
+.clangd
+
+# Editors
+.vscode
+*.code-workspace
