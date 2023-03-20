@@ -98,7 +98,7 @@ fprintf(fileID,equilibriumphases);
 fclose(fileID);
 % 
 % % run the model -----------------------------------------------------------
-str=['system("phreeqc runphreeqc.txt out.txt ', database,'")'];
+str=['system("$HOME/runPHREEQC/phreeqc runphreeqc.txt out.txt ', database,'")'];
 % %system('export LD_PRELOAD=/usr/lib/libstdc++.so.6')
 % %system('phreeqc runphreeqc.txt out.txt llnl.dat')
 % %!phreeqc runphreeqc.txt out.txt llnl.dat
