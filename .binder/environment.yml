@@ -16,6 +16,8 @@ dependencies:
   - fltk
   # for qt graphictoolkit option
   - qt
+  # for phreeqc
+  - phreeqpy
 
 
 
