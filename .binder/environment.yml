@@ -14,6 +14,8 @@ dependencies:
   - make
   # for fltk graphictoolkit option
   - fltk
+  # for qt graphictoolkit option
+  - qt
 
 
 
