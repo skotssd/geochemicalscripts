@@ -2,6 +2,8 @@ name: xeus-octave
 channels:
   - conda-forge
 dependencies:
+  # Workaround
+  - xeus-zmq=1.0.2=h0541b36_2
   - xeus-octave==0.1.0
   # For Plotly graphical toolkit
   - plotly
