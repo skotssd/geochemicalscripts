@@ -1,0 +1,943 @@
+SOLUTION_RAW                 1 
+  -temp                      25
+  -pressure                  1
+  -potential                 0
+  -total_h                   111.01366615784
+  -total_o                   55.509854710324
+  -cb                        2.6020852139652e-18
+  -density                   0.9971420343194
+  -totals
+    C(4)                     1e-09
+    Ca                       0.00025000000000002
+    Cl                       0.00065630109269263
+    Eu                       1e-09
+    Mg                       0.00025000000000002
+    N(5)                     3e-09
+    Na                       0.000156
+    O(0)                     0.0020217709489119
+    S(6)                     0.00025000000000004
+  -pH                        6.5
+  -pe                        14.25
+  -mu                        0.0018424499900763
+  -ah2o                      0.99995652238283
+  -mass_water                1
+  -soln_vol                  1.002965757908
+  -total_alkalinity          -3.010926926266e-07
+  -activities
+    C(4)                     -13.07587932651
+    Ca                       -3.7005069380114
+    Cl                       -3.2036061321716
+    E                        -14.25
+    Eu                       -9.2057946073276
+    H(0)                     -44.650000000001
+    Mg                       -3.6973463689496
+    N(5)                     -8.5438623647141
+    Na                       -3.8280349245563
+    O(0)                     -2.9951137988459
+    S(6)                     -3.7137251406797
+  -gammas
+EQUILIBRIUM_PHASES_RAW       1 
+  # EXCHANGE_MODIFY candidates; use new_def=true #
+  -new_def                   0
+  -component                 Calcite
+      # EQUILIBRIUM_PHASES_MODIFY candidate identifiers #
+      -si                    0
+      -moles                 0
+      -force_equality        0
+      -dissolve_only         0
+      -precipitate_only      0
+      # PPassemblage workspace variables #
+      -si_org                0
+      -delta                 0
+      -initial_moles         0
+      -totals                
+  -component                 Dolomite(disordered)
+      # EQUILIBRIUM_PHASES_MODIFY candidate identifiers #
+      -si                    0
+      -moles                 0
+      -force_equality        0
+      -dissolve_only         0
+      -precipitate_only      0
+      # PPassemblage workspace variables #
+      -si_org                0
+      -delta                 0
+      -initial_moles         0
+      -totals                
+  -component                 Eu(NO3)3:6H2O
+      # EQUILIBRIUM_PHASES_MODIFY candidate identifiers #
+      -si                    0
+      -moles                 0
+      -force_equality        0
+      -dissolve_only         0
+      -precipitate_only      0
+      # PPassemblage workspace variables #
+      -si_org                0
+      -delta                 0
+      -initial_moles         0
+      -totals                
+  -component                 Eu(OH)2.5Cl.5
+      # EQUILIBRIUM_PHASES_MODIFY candidate identifiers #
+      -si                    0
+      -moles                 0
+      -force_equality        0
+      -dissolve_only         0
+      -precipitate_only      0
+      # PPassemblage workspace variables #
+      -si_org                0
+      -delta                 0
+      -initial_moles         0
+      -totals                
+  -component                 Eu(OH)2Cl
+      # EQUILIBRIUM_PHASES_MODIFY candidate identifiers #
+      -si                    0
+      -moles                 0
+      -force_equality        0
+      -dissolve_only         0
+      -precipitate_only      0
+      # PPassemblage workspace variables #
+      -si_org                0
+      -delta                 0
+      -initial_moles         0
+      -totals                
+  -component                 Eu(OH)3
+      # EQUILIBRIUM_PHASES_MODIFY candidate identifiers #
+      -si                    0
+      -moles                 0
+      -force_equality        0
+      -dissolve_only         0
+      -precipitate_only      0
+      # PPassemblage workspace variables #
+      -si_org                0
+      -delta                 0
+      -initial_moles         0
+      -totals                
+  -component                 Eu2(CO3)3:3H2O
+      # EQUILIBRIUM_PHASES_MODIFY candidate identifiers #
+      -si                    0
+      -moles                 0
+      -force_equality        0
+      -dissolve_only         0
+      -precipitate_only      0
+      # PPassemblage workspace variables #
+      -si_org                0
+      -delta                 0
+      -initial_moles         0
+      -totals                
+  -component                 Eu2(SO4)3:8H2O
+      # EQUILIBRIUM_PHASES_MODIFY candidate identifiers #
+      -si                    0
+      -moles                 0
+      -force_equality        0
+      -dissolve_only         0
+      -precipitate_only      0
+      # PPassemblage workspace variables #
+      -si_org                0
+      -delta                 0
+      -initial_moles         0
+      -totals                
+  -component                 Eu2O3(cubic)
+      # EQUILIBRIUM_PHASES_MODIFY candidate identifiers #
+      -si                    0
+      -moles                 0
+      -force_equality        0
+      -dissolve_only         0
+      -precipitate_only      0
+      # PPassemblage workspace variables #
+      -si_org                0
+      -delta                 0
+      -initial_moles         0
+      -totals                
+  -component                 Eu2O3(monoclinic)
+      # EQUILIBRIUM_PHASES_MODIFY candidate identifiers #
+      -si                    0
+      -moles                 0
+      -force_equality        0
+      -dissolve_only         0
+      -precipitate_only      0
+      # PPassemblage workspace variables #
+      -si_org                0
+      -delta                 0
+      -initial_moles         0
+      -totals                
+  -component                 EuCl3
+      # EQUILIBRIUM_PHASES_MODIFY candidate identifiers #
+      -si                    0
+      -moles                 0
+      -force_equality        0
+      -dissolve_only         0
+      -precipitate_only      0
+      # PPassemblage workspace variables #
+      -si_org                0
+      -delta                 0
+      -initial_moles         0
+      -totals                
+  -component                 EuCl3:6H2O
+      # EQUILIBRIUM_PHASES_MODIFY candidate identifiers #
+      -si                    0
+      -moles                 0
+      -force_equality        0
+      -dissolve_only         0
+      -precipitate_only      0
+      # PPassemblage workspace variables #
+      -si_org                0
+      -delta                 0
+      -initial_moles         0
+      -totals                
+  -component                 EuOCl
+      # EQUILIBRIUM_PHASES_MODIFY candidate identifiers #
+      -si                    0
+      -moles                 0
+      -force_equality        0
+      -dissolve_only         0
+      -precipitate_only      0
+      # PPassemblage workspace variables #
+      -si_org                0
+      -delta                 0
+      -initial_moles         0
+      -totals                
+  -component                 EuOHCO3
+      # EQUILIBRIUM_PHASES_MODIFY candidate identifiers #
+      -si                    0
+      -moles                 0
+      -force_equality        0
+      -dissolve_only         0
+      -precipitate_only      0
+      # PPassemblage workspace variables #
+      -si_org                0
+      -delta                 0
+      -initial_moles         0
+      -totals                
+  -component                 Fix_H+
+      # EQUILIBRIUM_PHASES_MODIFY candidate identifiers #
+      -add_formula           HCl
+      -si                    -6.5
+      -moles                 10
+      -force_equality        1
+      -dissolve_only         0
+      -precipitate_only      0
+      # PPassemblage workspace variables #
+      -si_org                -6.5
+      -delta                 0
+      -initial_moles         0
+      -totals                
+  -component                 Fix_pe
+      # EQUILIBRIUM_PHASES_MODIFY candidate identifiers #
+      -add_formula           O2
+      -si                    -14.25
+      -moles                 10
+      -force_equality        1
+      -dissolve_only         0
+      -precipitate_only      0
+      # PPassemblage workspace variables #
+      -si_org                -14.25
+      -delta                 0
+      -initial_moles         0
+      -totals                
+  -component                 Magnesite
+      # EQUILIBRIUM_PHASES_MODIFY candidate identifiers #
+      -si                    0
+      -moles                 0
+      -force_equality        0
+      -dissolve_only         0
+      -precipitate_only      0
+      # PPassemblage workspace variables #
+      -si_org                0
+      -delta                 0
+      -initial_moles         0
+      -totals                
+  -eltList                   # List of all elements in phases and alternate reactions
+    C                        8
+    Ca                       2
+    Cl                       9.5
+    Eu                       16
+    H                        56.5
+    Mg                       2
+    N                        3
+    O                        85.5
+    S                        3
+    e                        1
+  # PPassemblage workspace variables #
+  -assemblage_totals
+SURFACE_RAW                  1 
+  # SURFACE_MODIFY candidate identifiers #
+  -type                      3
+  -dl_type                   0
+  -only_counter_ions         0
+  -thickness                 1e-08
+  -debye_lengths             0
+  -DDL_viscosity             1
+  -DDL_limit                 0.8
+  -component                 Ha_aH
+    # SURFACE_MODIFY candidate identifiers #
+    -formula_z               0
+    -moles                   0.00037
+    -la                      0
+    -charge_balance          0
+    -phase_proportion        0
+    -Dw                      0
+    -charge_name             Ha
+    -master_element          Ha_a
+    -totals
+      H                      0.00037
+      Ha_a                   0.00037
+  -component                 Ha_abH2
+    # SURFACE_MODIFY candidate identifiers #
+    -formula_z               0
+    -moles                   0.000191
+    -la                      0
+    -charge_balance          0
+    -phase_proportion        0
+    -Dw                      0
+    -charge_name             Ha
+    -master_element          Ha_ab
+    -totals
+      H                      0.000382
+      Ha_ab                  0.000191
+  -component                 Ha_abeH3
+    # SURFACE_MODIFY candidate identifiers #
+    -formula_z               0
+    -moles                   1.24e-05
+    -la                      0
+    -charge_balance          0
+    -phase_proportion        0
+    -Dw                      0
+    -charge_name             Ha
+    -master_element          Ha_abe
+    -totals
+      H                      3.72e-05
+      Ha_abe                 1.24e-05
+  -component                 Ha_abeyH3
+    # SURFACE_MODIFY candidate identifiers #
+    -formula_z               0
+    -moles                   1.24e-06
+    -la                      0
+    -charge_balance          0
+    -phase_proportion        0
+    -Dw                      0
+    -charge_name             Ha
+    -master_element          Ha_abey
+    -totals
+      H                      3.72e-06
+      Ha_abey                1.24e-06
+  -component                 Ha_abeyyH3
+    # SURFACE_MODIFY candidate identifiers #
+    -formula_z               0
+    -moles                   1.24e-07
+    -la                      0
+    -charge_balance          0
+    -phase_proportion        0
+    -Dw                      0
+    -charge_name             Ha
+    -master_element          Ha_abeyy
+    -totals
+      H                      3.72e-07
+      Ha_abeyy               1.24e-07
+  -component                 Ha_abfH3
+    # SURFACE_MODIFY candidate identifiers #
+    -formula_z               0
+    -moles                   1.24e-05
+    -la                      0
+    -charge_balance          0
+    -phase_proportion        0
+    -Dw                      0
+    -charge_name             Ha
+    -master_element          Ha_abf
+    -totals
+      H                      3.72e-05
+      Ha_abf                 1.24e-05
+  -component                 Ha_abfyH3
+    # SURFACE_MODIFY candidate identifiers #
+    -formula_z               0
+    -moles                   1.24e-06
+    -la                      0
+    -charge_balance          0
+    -phase_proportion        0
+    -Dw                      0
+    -charge_name             Ha
+    -master_element          Ha_abfy
+    -totals
+      H                      3.72e-06
+      Ha_abfy                1.24e-06
+  -component                 Ha_abfyyH3
+    # SURFACE_MODIFY candidate identifiers #
+    -formula_z               0
+    -moles                   1.24e-07
+    -la                      0
+    -charge_balance          0
+    -phase_proportion        0
+    -Dw                      0
+    -charge_name             Ha
+    -master_element          Ha_abfyy
+    -totals
+      H                      3.72e-07
+      Ha_abfyy               1.24e-07
+  -component                 Ha_abgH3
+    # SURFACE_MODIFY candidate identifiers #
+    -formula_z               0
+    -moles                   1.24e-05
+    -la                      0
+    -charge_balance          0
+    -phase_proportion        0
+    -Dw                      0
+    -charge_name             Ha
+    -master_element          Ha_abg
+    -totals
+      H                      3.72e-05
+      Ha_abg                 1.24e-05
+  -component                 Ha_abgyH3
+    # SURFACE_MODIFY candidate identifiers #
+    -formula_z               0
+    -moles                   1.24e-06
+    -la                      0
+    -charge_balance          0
+    -phase_proportion        0
+    -Dw                      0
+    -charge_name             Ha
+    -master_element          Ha_abgy
+    -totals
+      H                      3.72e-06
+      Ha_abgy                1.24e-06
+  -component                 Ha_abgyyH3
+    # SURFACE_MODIFY candidate identifiers #
+    -formula_z               0
+    -moles                   1.24e-07
+    -la                      0
+    -charge_balance          0
+    -phase_proportion        0
+    -Dw                      0
+    -charge_name             Ha
+    -master_element          Ha_abgyy
+    -totals
+      H                      3.72e-07
+      Ha_abgyy               1.24e-07
+  -component                 Ha_abhH3
+    # SURFACE_MODIFY candidate identifiers #
+    -formula_z               0
+    -moles                   1.24e-05
+    -la                      0
+    -charge_balance          0
+    -phase_proportion        0
+    -Dw                      0
+    -charge_name             Ha
+    -master_element          Ha_abh
+    -totals
+      H                      3.72e-05
+      Ha_abh                 1.24e-05
+  -component                 Ha_abhyH3
+    # SURFACE_MODIFY candidate identifiers #
+    -formula_z               0
+    -moles                   1.24e-06
+    -la                      0
+    -charge_balance          0
+    -phase_proportion        0
+    -Dw                      0
+    -charge_name             Ha
+    -master_element          Ha_abhy
+    -totals
+      H                      3.72e-06
+      Ha_abhy                1.24e-06
+  -component                 Ha_abhyyH3
+    # SURFACE_MODIFY candidate identifiers #
+    -formula_z               0
+    -moles                   1.24e-07
+    -la                      0
+    -charge_balance          0
+    -phase_proportion        0
+    -Dw                      0
+    -charge_name             Ha
+    -master_element          Ha_abhyy
+    -totals
+      H                      3.72e-07
+      Ha_abhyy               1.24e-07
+  -component                 Ha_abxH2
+    # SURFACE_MODIFY candidate identifiers #
+    -formula_z               0
+    -moles                   1.91e-05
+    -la                      0
+    -charge_balance          0
+    -phase_proportion        0
+    -Dw                      0
+    -charge_name             Ha
+    -master_element          Ha_abx
+    -totals
+      H                      3.82e-05
+      Ha_abx                 1.91e-05
+  -component                 Ha_abxxH2
+    # SURFACE_MODIFY candidate identifiers #
+    -formula_z               0
+    -moles                   1.91e-06
+    -la                      0
+    -charge_balance          0
+    -phase_proportion        0
+    -Dw                      0
+    -charge_name             Ha
+    -master_element          Ha_abxx
+    -totals
+      H                      3.82e-06
+      Ha_abxx                1.91e-06
+  -component                 Ha_aeH2
+    # SURFACE_MODIFY candidate identifiers #
+    -formula_z               0
+    -moles                   0.000191
+    -la                      0
+    -charge_balance          0
+    -phase_proportion        0
+    -Dw                      0
+    -charge_name             Ha
+    -master_element          Ha_ae
+    -totals
+      H                      0.000382
+      Ha_ae                  0.000191
+  -component                 Ha_aexH2
+    # SURFACE_MODIFY candidate identifiers #
+    -formula_z               0
+    -moles                   1.91e-05
+    -la                      0
+    -charge_balance          0
+    -phase_proportion        0
+    -Dw                      0
+    -charge_name             Ha
+    -master_element          Ha_aex
+    -totals
+      H                      3.82e-05
+      Ha_aex                 1.91e-05
+  -component                 Ha_aexxH2
+    # SURFACE_MODIFY candidate identifiers #
+    -formula_z               0
+    -moles                   1.91e-06
+    -la                      0
+    -charge_balance          0
+    -phase_proportion        0
+    -Dw                      0
+    -charge_name             Ha
+    -master_element          Ha_aexx
+    -totals
+      H                      3.82e-06
+      Ha_aexx                1.91e-06
+  -component                 Ha_bH
+    # SURFACE_MODIFY candidate identifiers #
+    -formula_z               0
+    -moles                   0.00037
+    -la                      0
+    -charge_balance          0
+    -phase_proportion        0
+    -Dw                      0
+    -charge_name             Ha
+    -master_element          Ha_b
+    -totals
+      H                      0.00037
+      Ha_b                   0.00037
+  -component                 Ha_bfH2
+    # SURFACE_MODIFY candidate identifiers #
+    -formula_z               0
+    -moles                   0.000191
+    -la                      0
+    -charge_balance          0
+    -phase_proportion        0
+    -Dw                      0
+    -charge_name             Ha
+    -master_element          Ha_bf
+    -totals
+      H                      0.000382
+      Ha_bf                  0.000191
+  -component                 Ha_bfxH2
+    # SURFACE_MODIFY candidate identifiers #
+    -formula_z               0
+    -moles                   1.91e-05
+    -la                      0
+    -charge_balance          0
+    -phase_proportion        0
+    -Dw                      0
+    -charge_name             Ha
+    -master_element          Ha_bfx
+    -totals
+      H                      3.82e-05
+      Ha_bfx                 1.91e-05
+  -component                 Ha_bfxxH2
+    # SURFACE_MODIFY candidate identifiers #
+    -formula_z               0
+    -moles                   1.91e-06
+    -la                      0
+    -charge_balance          0
+    -phase_proportion        0
+    -Dw                      0
+    -charge_name             Ha
+    -master_element          Ha_bfxx
+    -totals
+      H                      3.82e-06
+      Ha_bfxx                1.91e-06
+  -component                 Ha_cH
+    # SURFACE_MODIFY candidate identifiers #
+    -formula_z               0
+    -moles                   0.00037
+    -la                      0
+    -charge_balance          0
+    -phase_proportion        0
+    -Dw                      0
+    -charge_name             Ha
+    -master_element          Ha_c
+    -totals
+      H                      0.00037
+      Ha_c                   0.00037
+  -component                 Ha_cdH2
+    # SURFACE_MODIFY candidate identifiers #
+    -formula_z               0
+    -moles                   0.000191
+    -la                      0
+    -charge_balance          0
+    -phase_proportion        0
+    -Dw                      0
+    -charge_name             Ha
+    -master_element          Ha_cd
+    -totals
+      H                      0.000382
+      Ha_cd                  0.000191
+  -component                 Ha_cdeH3
+    # SURFACE_MODIFY candidate identifiers #
+    -formula_z               0
+    -moles                   1.24e-05
+    -la                      0
+    -charge_balance          0
+    -phase_proportion        0
+    -Dw                      0
+    -charge_name             Ha
+    -master_element          Ha_cde
+    -totals
+      H                      3.72e-05
+      Ha_cde                 1.24e-05
+  -component                 Ha_cdeyH3
+    # SURFACE_MODIFY candidate identifiers #
+    -formula_z               0
+    -moles                   1.24e-06
+    -la                      0
+    -charge_balance          0
+    -phase_proportion        0
+    -Dw                      0
+    -charge_name             Ha
+    -master_element          Ha_cdey
+    -totals
+      H                      3.72e-06
+      Ha_cdey                1.24e-06
+  -component                 Ha_cdeyyH3
+    # SURFACE_MODIFY candidate identifiers #
+    -formula_z               0
+    -moles                   1.24e-07
+    -la                      0
+    -charge_balance          0
+    -phase_proportion        0
+    -Dw                      0
+    -charge_name             Ha
+    -master_element          Ha_cdeyy
+    -totals
+      H                      3.72e-07
+      Ha_cdeyy               1.24e-07
+  -component                 Ha_cdfH3
+    # SURFACE_MODIFY candidate identifiers #
+    -formula_z               0
+    -moles                   1.24e-05
+    -la                      0
+    -charge_balance          0
+    -phase_proportion        0
+    -Dw                      0
+    -charge_name             Ha
+    -master_element          Ha_cdf
+    -totals
+      H                      3.72e-05
+      Ha_cdf                 1.24e-05
+  -component                 Ha_cdfyH3
+    # SURFACE_MODIFY candidate identifiers #
+    -formula_z               0
+    -moles                   1.24e-06
+    -la                      0
+    -charge_balance          0
+    -phase_proportion        0
+    -Dw                      0
+    -charge_name             Ha
+    -master_element          Ha_cdfy
+    -totals
+      H                      3.72e-06
+      Ha_cdfy                1.24e-06
+  -component                 Ha_cdfyyH3
+    # SURFACE_MODIFY candidate identifiers #
+    -formula_z               0
+    -moles                   1.24e-07
+    -la                      0
+    -charge_balance          0
+    -phase_proportion        0
+    -Dw                      0
+    -charge_name             Ha
+    -master_element          Ha_cdfyy
+    -totals
+      H                      3.72e-07
+      Ha_cdfyy               1.24e-07
+  -component                 Ha_cdgH3
+    # SURFACE_MODIFY candidate identifiers #
+    -formula_z               0
+    -moles                   1.24e-05
+    -la                      0
+    -charge_balance          0
+    -phase_proportion        0
+    -Dw                      0
+    -charge_name             Ha
+    -master_element          Ha_cdg
+    -totals
+      H                      3.72e-05
+      Ha_cdg                 1.24e-05
+  -component                 Ha_cdgyH3
+    # SURFACE_MODIFY candidate identifiers #
+    -formula_z               0
+    -moles                   1.24e-06
+    -la                      0
+    -charge_balance          0
+    -phase_proportion        0
+    -Dw                      0
+    -charge_name             Ha
+    -master_element          Ha_cdgy
+    -totals
+      H                      3.72e-06
+      Ha_cdgy                1.24e-06
+  -component                 Ha_cdgyyH3
+    # SURFACE_MODIFY candidate identifiers #
+    -formula_z               0
+    -moles                   1.24e-07
+    -la                      0
+    -charge_balance          0
+    -phase_proportion        0
+    -Dw                      0
+    -charge_name             Ha
+    -master_element          Ha_cdgyy
+    -totals
+      H                      3.72e-07
+      Ha_cdgyy               1.24e-07
+  -component                 Ha_cdhH3
+    # SURFACE_MODIFY candidate identifiers #
+    -formula_z               0
+    -moles                   1.24e-05
+    -la                      0
+    -charge_balance          0
+    -phase_proportion        0
+    -Dw                      0
+    -charge_name             Ha
+    -master_element          Ha_cdh
+    -totals
+      H                      3.72e-05
+      Ha_cdh                 1.24e-05
+  -component                 Ha_cdhyH3
+    # SURFACE_MODIFY candidate identifiers #
+    -formula_z               0
+    -moles                   1.24e-06
+    -la                      0
+    -charge_balance          0
+    -phase_proportion        0
+    -Dw                      0
+    -charge_name             Ha
+    -master_element          Ha_cdhy
+    -totals
+      H                      3.72e-06
+      Ha_cdhy                1.24e-06
+  -component                 Ha_cdhyyH3
+    # SURFACE_MODIFY candidate identifiers #
+    -formula_z               0
+    -moles                   1.24e-07
+    -la                      0
+    -charge_balance          0
+    -phase_proportion        0
+    -Dw                      0
+    -charge_name             Ha
+    -master_element          Ha_cdhyy
+    -totals
+      H                      3.72e-07
+      Ha_cdhyy               1.24e-07
+  -component                 Ha_cdxH2
+    # SURFACE_MODIFY candidate identifiers #
+    -formula_z               0
+    -moles                   1.91e-05
+    -la                      0
+    -charge_balance          0
+    -phase_proportion        0
+    -Dw                      0
+    -charge_name             Ha
+    -master_element          Ha_cdx
+    -totals
+      H                      3.82e-05
+      Ha_cdx                 1.91e-05
+  -component                 Ha_cdxxH2
+    # SURFACE_MODIFY candidate identifiers #
+    -formula_z               0
+    -moles                   1.91e-06
+    -la                      0
+    -charge_balance          0
+    -phase_proportion        0
+    -Dw                      0
+    -charge_name             Ha
+    -master_element          Ha_cdxx
+    -totals
+      H                      3.82e-06
+      Ha_cdxx                1.91e-06
+  -component                 Ha_cgH2
+    # SURFACE_MODIFY candidate identifiers #
+    -formula_z               0
+    -moles                   0.000191
+    -la                      0
+    -charge_balance          0
+    -phase_proportion        0
+    -Dw                      0
+    -charge_name             Ha
+    -master_element          Ha_cg
+    -totals
+      H                      0.000382
+      Ha_cg                  0.000191
+  -component                 Ha_cgxH2
+    # SURFACE_MODIFY candidate identifiers #
+    -formula_z               0
+    -moles                   1.91e-05
+    -la                      0
+    -charge_balance          0
+    -phase_proportion        0
+    -Dw                      0
+    -charge_name             Ha
+    -master_element          Ha_cgx
+    -totals
+      H                      3.82e-05
+      Ha_cgx                 1.91e-05
+  -component                 Ha_cgxxH2
+    # SURFACE_MODIFY candidate identifiers #
+    -formula_z               0
+    -moles                   1.91e-06
+    -la                      0
+    -charge_balance          0
+    -phase_proportion        0
+    -Dw                      0
+    -charge_name             Ha
+    -master_element          Ha_cgxx
+    -totals
+      H                      3.82e-06
+      Ha_cgxx                1.91e-06
+  -component                 Ha_dH
+    # SURFACE_MODIFY candidate identifiers #
+    -formula_z               0
+    -moles                   0.00037
+    -la                      0
+    -charge_balance          0
+    -phase_proportion        0
+    -Dw                      0
+    -charge_name             Ha
+    -master_element          Ha_d
+    -totals
+      H                      0.00037
+      Ha_d                   0.00037
+  -component                 Ha_dhH2
+    # SURFACE_MODIFY candidate identifiers #
+    -formula_z               0
+    -moles                   0.000191
+    -la                      0
+    -charge_balance          0
+    -phase_proportion        0
+    -Dw                      0
+    -charge_name             Ha
+    -master_element          Ha_dh
+    -totals
+      H                      0.000382
+      Ha_dh                  0.000191
+  -component                 Ha_dhxH2
+    # SURFACE_MODIFY candidate identifiers #
+    -formula_z               0
+    -moles                   1.91e-05
+    -la                      0
+    -charge_balance          0
+    -phase_proportion        0
+    -Dw                      0
+    -charge_name             Ha
+    -master_element          Ha_dhx
+    -totals
+      H                      3.82e-05
+      Ha_dhx                 1.91e-05
+  -component                 Ha_dhxxH2
+    # SURFACE_MODIFY candidate identifiers #
+    -formula_z               0
+    -moles                   1.91e-06
+    -la                      0
+    -charge_balance          0
+    -phase_proportion        0
+    -Dw                      0
+    -charge_name             Ha
+    -master_element          Ha_dhxx
+    -totals
+      H                      3.82e-06
+      Ha_dhxx                1.91e-06
+  -component                 Ha_eH
+    # SURFACE_MODIFY candidate identifiers #
+    -formula_z               0
+    -moles                   0.000185
+    -la                      0
+    -charge_balance          0
+    -phase_proportion        0
+    -Dw                      0
+    -charge_name             Ha
+    -master_element          Ha_e
+    -totals
+      H                      0.000185
+      Ha_e                   0.000185
+  -component                 Ha_fH
+    # SURFACE_MODIFY candidate identifiers #
+    -formula_z               0
+    -moles                   0.000185
+    -la                      0
+    -charge_balance          0
+    -phase_proportion        0
+    -Dw                      0
+    -charge_name             Ha
+    -master_element          Ha_f
+    -totals
+      H                      0.000185
+      Ha_f                   0.000185
+  -component                 Ha_gH
+    # SURFACE_MODIFY candidate identifiers #
+    -formula_z               0
+    -moles                   0.000185
+    -la                      0
+    -charge_balance          0
+    -phase_proportion        0
+    -Dw                      0
+    -charge_name             Ha
+    -master_element          Ha_g
+    -totals
+      H                      0.000185
+      Ha_g                   0.000185
+  -component                 Ha_hH
+    # SURFACE_MODIFY candidate identifiers #
+    -formula_z               0
+    -moles                   0.000185
+    -la                      0
+    -charge_balance          0
+    -phase_proportion        0
+    -Dw                      0
+    -charge_name             Ha
+    -master_element          Ha_h
+    -totals
+      H                      0.000185
+      Ha_h                   0.000185
+  -charge_component          Ha
+    # SURFACE_MODIFY candidate identifiers #
+    -specific_area           1000000
+    -grams                   1
+    -charge_balance          0
+    -mass_water              0
+    -la_psi                  0
+    -capacitance0            0.0034317
+    -capacitance1            100000
+    -diffuse_layer_totals
+    # Surface workspace variables #
+    -sigma0                  0
+    -sigma1                  0
+    -sigma2                  0
+    -sigmaddl                0
+  # SURFACE_MODIFY candidates with new_def=true #
+  -new_def                   1
+  -tidied                   1
+  -sites_units               0
+  -solution_equilibria       0
+  -n_solution                -999
+  # Surface workspace variables #
+  -transport                 0
+  -totals                    
