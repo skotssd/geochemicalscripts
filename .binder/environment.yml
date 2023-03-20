@@ -12,6 +12,8 @@ dependencies:
   # For compiling the Octave ``control`` and ``signal`` packages
   - compilers
   - make
+  # for fltk graphictoolkit option
+  - fltk
 
 
 
