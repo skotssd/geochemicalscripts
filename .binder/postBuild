@@ -1,12 +1,14 @@
+#!/bin/bash
 # Fail fast
 set -o errexit
 set -o nounset
+set -e #don't allow to fail silently
 
 # Installation of Octave packages is dependent on current user.
 # This works because postBuild user is the same as user running Binder.
 # https://docs.octave.org/interpreter/Administrating-Packages.html
 # Use micromamba so that the compilers are properly found.
-micromamba run -n notebook octave-cli --eval 'pkg install -forge symbolic control signal statistics'
+#micromamba run -n notebook octave-cli --eval 'pkg install -forge symbolic control signal statistics'
 
 #install phreeqc
 wget http://water.usgs.gov/water-resources/software/PHREEQC/phreeqc-3.7.3-15968.tar.gz
