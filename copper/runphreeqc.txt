@@ -1,0 +1,41 @@
+SOLUTION 1
+       pe      12.25
+       pH      8.5
+       temp      25
+-units mol/kgw
+Cu 1e-06 
+C(+4) 0.001 
+Na 0.001 
+
+EQUILIBRIUM_PHASES 1
+Tenorite   0.0   0
+CuCO3   0.0   0
+Malachite   0.0   0
+Azurite   0.0   0
+       Fix_H+ -8.5          NaOH 10.0
+-force_equality true
+       Fix_pe -12.25          O2
+-force_equality true
+
+SELECTED_OUTPUT
+-file selected.out
+-selected_out true
+-user_punch true
+-high_precision true
+-reset false
+-simulation false
+-state false
+-distance false
+-time false
+-step false
+-ph false
+-pe false
+-reaction false
+-temperature false
+-alkalinity false
+-ionic_strength false
+-water false
+-charge_balance false
+-percent_error false
+-molalities Cu+2  
+-equilibrium_phases Tenorite  CuCO3  Malachite  Azurite  
