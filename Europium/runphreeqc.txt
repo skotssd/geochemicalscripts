@@ -1,13 +1,13 @@
 SOLUTION 1
-       pe      13.75
-       pH      7
+       pe      15.75
+       pH      5
        temp      25
 -units mol/kgw
-Eu 1e-06 
-Na 5e-15 
-N(+5) 3e-06 
-C(+4) 1e-15 
-P 1e-15 
+Eu 1e-08 
+Na 0.00020003 
+N(+5) 3e-08 
+C(+4) 0.0001 
+P 1e-08 
 
 EQUILIBRIUM_PHASES 1
 Eu(OH)3   0.0   0
@@ -17,64 +17,64 @@ Eu2O3(cubic)   0.0   0
 Eu2O3(monoclinic)   0.0   0
 EuOHCO3   0.0   0
 EuPO4:10H2O   0.0   0
-       Fix_H+ -7          NaOH 10.0
+       Fix_H+ -5          NaOH 10.0
 -force_equality true
-       Fix_pe -13.75          O2
+       Fix_pe -15.75          O2
 -force_equality true
 
 SURFACE 1
-Ha_aH 1.48e-06 1000000 0.004 
-Ha_bH 1.48e-06 
-Ha_cH 1.48e-06 
-Ha_dH 1.48e-06 
-Ha_eH 7.4e-07 
-Ha_fH 7.4e-07 
-Ha_gH 7.4e-07 
-Ha_hH 7.4e-07 
-Ha_abH2 7.64e-07 
-Ha_cdH2 7.64e-07 
-Ha_aeH2 7.64e-07 
-Ha_bfH2 7.64e-07 
-Ha_cgH2 7.64e-07 
-Ha_dhH2 7.64e-07 
-Ha_abxH2 7.64e-08 
-Ha_cdxH2 7.64e-08 
-Ha_aexH2 7.64e-08 
-Ha_bfxH2 7.64e-08 
-Ha_cgxH2 7.64e-08 
-Ha_dhxH2 7.64e-08 
-Ha_abxxH2 7.64e-09 
-Ha_cdxxH2 7.64e-09 
-Ha_aexxH2 7.64e-09 
-Ha_bfxxH2 7.64e-09 
-Ha_cgxxH2 7.64e-09 
-Ha_dhxxH2 7.64e-09 
-Ha_abeH3 4.96e-08 
-Ha_abfH3 4.96e-08 
-Ha_abgH3 4.96e-08 
-Ha_abhH3 4.96e-08 
-Ha_cdeH3 4.96e-08 
-Ha_cdfH3 4.96e-08 
-Ha_cdgH3 4.96e-08 
-Ha_cdhH3 4.96e-08 
-Ha_abeyH3 4.96e-09 
-Ha_abfyH3 4.96e-09 
-Ha_abgyH3 4.96e-09 
-Ha_abhyH3 4.96e-09 
-Ha_cdeyH3 4.96e-09 
-Ha_cdfyH3 4.96e-09 
-Ha_cdgyH3 4.96e-09 
-Ha_cdhyH3 4.96e-09 
-Ha_abeyyH3 4.96e-10 
-Ha_abfyyH3 4.96e-10 
-Ha_abgyyH3 4.96e-10 
-Ha_abhyyH3 4.96e-10 
-Ha_cdeyyH3 4.96e-10 
-Ha_cdfyyH3 4.96e-10 
-Ha_cdgyyH3 4.96e-10 
-Ha_cdhyyH3 4.96e-10 
+Ha_aH 3.7e-06 1000000 0.01 
+Ha_bH 3.7e-06 
+Ha_cH 3.7e-06 
+Ha_dH 3.7e-06 
+Ha_eH 1.85e-06 
+Ha_fH 1.85e-06 
+Ha_gH 1.85e-06 
+Ha_hH 1.85e-06 
+Ha_abH2 1.91e-06 
+Ha_cdH2 1.91e-06 
+Ha_aeH2 1.91e-06 
+Ha_bfH2 1.91e-06 
+Ha_cgH2 1.91e-06 
+Ha_dhH2 1.91e-06 
+Ha_abxH2 1.91e-07 
+Ha_cdxH2 1.91e-07 
+Ha_aexH2 1.91e-07 
+Ha_bfxH2 1.91e-07 
+Ha_cgxH2 1.91e-07 
+Ha_dhxH2 1.91e-07 
+Ha_abxxH2 1.91e-08 
+Ha_cdxxH2 1.91e-08 
+Ha_aexxH2 1.91e-08 
+Ha_bfxxH2 1.91e-08 
+Ha_cgxxH2 1.91e-08 
+Ha_dhxxH2 1.91e-08 
+Ha_abeH3 1.24e-07 
+Ha_abfH3 1.24e-07 
+Ha_abgH3 1.24e-07 
+Ha_abhH3 1.24e-07 
+Ha_cdeH3 1.24e-07 
+Ha_cdfH3 1.24e-07 
+Ha_cdgH3 1.24e-07 
+Ha_cdhH3 1.24e-07 
+Ha_abeyH3 1.24e-08 
+Ha_abfyH3 1.24e-08 
+Ha_abgyH3 1.24e-08 
+Ha_abhyH3 1.24e-08 
+Ha_cdeyH3 1.24e-08 
+Ha_cdfyH3 1.24e-08 
+Ha_cdgyH3 1.24e-08 
+Ha_cdhyH3 1.24e-08 
+Ha_abeyyH3 1.24e-09 
+Ha_abfyyH3 1.24e-09 
+Ha_abgyyH3 1.24e-09 
+Ha_abhyyH3 1.24e-09 
+Ha_cdeyyH3 1.24e-09 
+Ha_cdfyyH3 1.24e-09 
+Ha_cdgyyH3 1.24e-09 
+Ha_cdhyyH3 1.24e-09 
 -cd_music 
--capacitance 0.00067046 1e5 
+-capacitance 0.0025922 1e5 
 
 SELECTED_OUTPUT
 -file selected.out
