@@ -94,3 +94,6 @@ compile_commands.json
 # Editors
 .vscode
 *.code-workspace
+
+# secrets folder to ignore
+/home/scott/DSShub/secrets
