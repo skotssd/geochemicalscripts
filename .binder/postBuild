@@ -1,8 +1,8 @@
 #!/bin/bash
 # Fail fast
-set -o errexit
-set -o nounset
-set -e #don't allow to fail silently
+#set -o errexit
+#set -o nounset
+#set -e #don't allow to fail silently
 
 # Installation of Octave packages is dependent on current user.
 # This works because postBuild user is the same as user running Binder.
