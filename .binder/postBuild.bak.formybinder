@@ -19,8 +19,8 @@ micromamba run -n notebook octave-cli --eval 'pkg install -forge symbolic contro
 #make
 #make install #permission denied errors for this.  so move executable.
 #instead move the executlable
-#mv /home/jovyan/runPHREEQC/phreeqc /srv/conda/bin/phreeqc
-#chmod +x /srv/conda/bin/phreeqc
+mv /home/jovyan/runPHREEQC/phreeqc /srv/conda/bin/phreeqc
+chmod +x /srv/conda/bin/phreeqc
 
 
 
