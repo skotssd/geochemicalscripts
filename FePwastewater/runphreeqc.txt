@@ -1,0 +1,52 @@
+SOLUTION 1
+       pe      0.60811
+       pH      4
+       temp      22
+-units mol/kgw
+Fe(+3)  0 
+Fe(+2)  0.0021953 
+Cl  0.0066185 
+Na  0.0079734 
+P  0.0014674 
+Mg  9.9965e-05 
+Ca  1.6317e-05 
+S  9.7305e-05 
+C(+4)  0.0035684 
+D(-2) 0.00448 
+
+EQUILIBRIUM_PHASES 1
+ Fe(OH)3(a)   0.0   0
+Vivianite   0.0   0
+Calcite   0.0   0
+Hydroxyapatite   0.0   0
+Siderite   0.0   0
+FeSppt   0.0   0
+Pyrite   0.0   0
+Strengite   0.0   0
+       Fix_H+ -4          HCl 10.0
+-force_equality true
+       Fix_pe -0.60811          O2
+-force_equality true
+
+SELECTED_OUTPUT
+-file selected.out
+-selected_out true
+-user_punch true
+-high_precision true
+-reset false
+-simulation false
+-state false
+-distance false
+-time false
+-step false
+-ph false
+-pe false
+-reaction false
+-temperature false
+-alkalinity false
+-ionic_strength false
+-water false
+-charge_balance false
+-percent_error false
+-molalities HPO4-2 H2PO4- H3PO4 PO4-3 MgHPO4 NaHPO4- CaH2PO4+ MgH2PO4+ CaHPO4 CaPO4- MgPO4- SO4-2 HS- NaSO4- MgSO4 CaSO4 D-2 D H2D HD- FeHD+ FeD+ FeOHD FeD2- Fe(OH)2D- FeD Hfo_wPO4-2 Hfo_wHPO4- Hfo_wH2PO4 Fe+3 FeOH+2 Fe(OH)2+ Fe(OH)4- FeHPO4+ FeH2PO4+2 Fe+2 FeHCO3+ FeHPO4 FeCO3 FeH2PO4+ FeSO4 FeCl+ FeOH+ FeHSO4+ Fe(HS)2 Fe(HS)3-  
+-equilibrium_phases  Fe(OH)3(a)  Vivianite  Calcite  Hydroxyapatite  Siderite  FeSppt  Pyrite  Strengite  
