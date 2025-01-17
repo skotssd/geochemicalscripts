@@ -1,80 +1,92 @@
 SOLUTION 1
-       pe      19.75
-       pH      1
+       pe      14.25
+       pH      6.5
        temp      25
 -units mol/kgw
-Eu 1 
-Na 5 
-N(+5) 3 
-C(+4) 1 
-P 1 
+Eu 1.2589e-06 
+Na 0.000156 
+Cl 5.78e-05 charge
+N(+5) 3.7768e-06 
+C(+4) 1e-13 
+S(6) 0.00025 
+Ca 0.00025 
+Mg 0.00025 
 
 EQUILIBRIUM_PHASES 1
 Eu(OH)3   0.0   0
 Eu2(CO3)3:3H2O   0.0   0
+Eu(OH)2Cl   0.0   0
+Eu2(SO4)3:8H2O   0.0   0
+EuCl3:6H2O   0.0   0
 Eu(NO3)3:6H2O   0.0   0
+Eu(OH)2.5Cl.5   0.0   0
+Eu(OH)2Cl   0.0   0
 Eu2O3(cubic)   0.0   0
 Eu2O3(monoclinic)   0.0   0
+EuOCl   0.0   0
+EuCl3   0.0   0
 EuOHCO3   0.0   0
-EuPO4:10H2O   0.0   0
-       Fix_H+ -1          NaOH 10.0
+Calcite   0.0   0
+Dolomite(disordered)   0.0   0
+Magnesite   0.0   0
+       Fix_H+ -6.5          NaOH 10.0
 -force_equality true
-       Fix_pe -19.75          O2
+       Fix_pe -14.25          O2
 -force_equality true
 
 SURFACE 1
-Ha_aH 7.4e-07 1000000 0.002 
-Ha_bH 7.4e-07 
-Ha_cH 7.4e-07 
-Ha_dH 7.4e-07 
-Ha_eH 3.7e-07 
-Ha_fH 3.7e-07 
-Ha_gH 3.7e-07 
-Ha_hH 3.7e-07 
-Ha_abH2 3.82e-07 
-Ha_cdH2 3.82e-07 
-Ha_aeH2 3.82e-07 
-Ha_bfH2 3.82e-07 
-Ha_cgH2 3.82e-07 
-Ha_dhH2 3.82e-07 
-Ha_abxH2 3.82e-08 
-Ha_cdxH2 3.82e-08 
-Ha_aexH2 3.82e-08 
-Ha_bfxH2 3.82e-08 
-Ha_cgxH2 3.82e-08 
-Ha_dhxH2 3.82e-08 
-Ha_abxxH2 3.82e-09 
-Ha_cdxxH2 3.82e-09 
-Ha_aexxH2 3.82e-09 
-Ha_bfxxH2 3.82e-09 
-Ha_cgxxH2 3.82e-09 
-Ha_dhxxH2 3.82e-09 
-Ha_abeH3 2.48e-08 
-Ha_abfH3 2.48e-08 
-Ha_abgH3 2.48e-08 
-Ha_abhH3 2.48e-08 
-Ha_cdeH3 2.48e-08 
-Ha_cdfH3 2.48e-08 
-Ha_cdgH3 2.48e-08 
-Ha_cdhH3 2.48e-08 
-Ha_abeyH3 2.48e-09 
-Ha_abfyH3 2.48e-09 
-Ha_abgyH3 2.48e-09 
-Ha_abhyH3 2.48e-09 
-Ha_cdeyH3 2.48e-09 
-Ha_cdfyH3 2.48e-09 
-Ha_cdgyH3 2.48e-09 
-Ha_cdhyH3 2.48e-09 
-Ha_abeyyH3 2.48e-10 
-Ha_abfyyH3 2.48e-10 
-Ha_abgyyH3 2.48e-10 
-Ha_abhyyH3 2.48e-10 
-Ha_cdeyyH3 2.48e-10 
-Ha_cdfyyH3 2.48e-10 
-Ha_cdgyyH3 2.48e-10 
-Ha_cdhyyH3 2.48e-10 
+Ha_aH 3.7e-07 1000000 0.001 
+Ha_bH 3.7e-07 
+Ha_cH 3.7e-07 
+Ha_dH 3.7e-07 
+Ha_eH 1.85e-07 
+Ha_fH 1.85e-07 
+Ha_gH 1.85e-07 
+Ha_hH 1.85e-07 
+Ha_abH2 1.91e-07 
+Ha_cdH2 1.91e-07 
+Ha_aeH2 1.91e-07 
+Ha_bfH2 1.91e-07 
+Ha_cgH2 1.91e-07 
+Ha_dhH2 1.91e-07 
+Ha_abxH2 1.91e-08 
+Ha_cdxH2 1.91e-08 
+Ha_aexH2 1.91e-08 
+Ha_bfxH2 1.91e-08 
+Ha_cgxH2 1.91e-08 
+Ha_dhxH2 1.91e-08 
+Ha_abxxH2 1.91e-09 
+Ha_cdxxH2 1.91e-09 
+Ha_aexxH2 1.91e-09 
+Ha_bfxxH2 1.91e-09 
+Ha_cgxxH2 1.91e-09 
+Ha_dhxxH2 1.91e-09 
+Ha_abeH3 1.24e-08 
+Ha_abfH3 1.24e-08 
+Ha_abgH3 1.24e-08 
+Ha_abhH3 1.24e-08 
+Ha_cdeH3 1.24e-08 
+Ha_cdfH3 1.24e-08 
+Ha_cdgH3 1.24e-08 
+Ha_cdhH3 1.24e-08 
+Ha_abeyH3 1.24e-09 
+Ha_abfyH3 1.24e-09 
+Ha_abgyH3 1.24e-09 
+Ha_abhyH3 1.24e-09 
+Ha_cdeyH3 1.24e-09 
+Ha_cdfyH3 1.24e-09 
+Ha_cdgyH3 1.24e-09 
+Ha_cdhyH3 1.24e-09 
+Ha_abeyyH3 1.24e-10 
+Ha_abfyyH3 1.24e-10 
+Ha_abgyyH3 1.24e-10 
+Ha_abhyyH3 1.24e-10 
+Ha_cdeyyH3 1.24e-10 
+Ha_cdfyyH3 1.24e-10 
+Ha_cdgyyH3 1.24e-10 
+Ha_cdhyyH3 1.24e-10 
 -cd_music 
--capacitance -0.013718 1e5 
+-capacitance 0.0034317 1e5 
 
 SELECTED_OUTPUT
 -file selected.out
@@ -97,4 +109,4 @@ SELECTED_OUTPUT
 -charge_balance false
 -percent_error false
 -molalities Ha_aEu+2 Ha_bEu+2 Ha_cEu+2 Ha_dEu+2 Ha_eEu+2 Ha_fEu+2 Ha_gEu+2 Ha_hEu+2 Ha_abEu+ Ha_cdEu+ Ha_aeEu+ Ha_bfEu+ Ha_cgEu+ Ha_dhEu+ Ha_abxEu+ Ha_cdxEu+ Ha_aexEu+ Ha_bfxEu+ Ha_cgxEu+ Ha_dhxEu+ Ha_abxxEu+ Ha_cdxxEu+ Ha_aexxEu+ Ha_bfxxEu+ Ha_cgxxEu+ Ha_dhxxEu+ Ha_abeEu Ha_abfEu Ha_abgEu Ha_abhEu Ha_cdeEu Ha_cdfEu Ha_cdgEu Ha_cdhEu Ha_abeyEu Ha_abfyEu Ha_abgyEu Ha_abhyEu Ha_cdeyEu Ha_cdfyEu Ha_cdgyEu Ha_cdhyEu Ha_abeyyEu Ha_abfyyEu Ha_abgyyEu Ha_abhyyEu Ha_cdeyyEu Ha_cdfyyEu Ha_cdgyyEu Ha_cdhyyEu Eu+3  
--equilibrium_phases Eu(OH)3  Eu2(CO3)3:3H2O  Eu(NO3)3:6H2O  Eu2O3(cubic)  Eu2O3(monoclinic)  EuOHCO3  EuPO4:10H2O  
+-equilibrium_phases Eu(OH)3  Eu2(CO3)3:3H2O  Eu(OH)2Cl  Eu2(SO4)3:8H2O  EuCl3:6H2O  Eu(NO3)3:6H2O  Eu(OH)2.5Cl.5  Eu(OH)2Cl  Eu2O3(cubic)  Eu2O3(monoclinic)  EuOCl  EuCl3  EuOHCO3  Calcite  Dolomite(disordered)  Magnesite  
